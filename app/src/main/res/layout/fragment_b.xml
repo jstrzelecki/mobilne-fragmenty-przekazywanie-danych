@@ -24,7 +24,23 @@
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:padding="10dp"
+        android:text="Brak wiadomości od frag a"
         tools:text="To jest tekst próbny"
+        android:textSize="20sp"
         />
+    <EditText
+        android:id="@+id/frag_b_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textSize="20sp"
+        android:hint="dane do wysłania do frag a"/>
 
+    <Button
+        android:id="@+id/send_frag_b_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "Wyślij do frag A"
+        android:layout_margin="10dp"
+        android:padding="10dp"/>
 </LinearLayout>

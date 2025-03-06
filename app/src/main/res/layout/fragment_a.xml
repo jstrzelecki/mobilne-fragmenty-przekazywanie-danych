@@ -17,8 +17,25 @@
         android:layout_margin="10dp"
         />
 
+    <TextView
+        android:id="@+id/msg_frag_a_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="brak wiadomości od b"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:id="@+id/frag_a_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textSize="20sp"
+        android:hint="wpisz dane do wysłania do frag b"/>
+
     <Button
-        android:id="@+id/send_to_frag_b_button"
+        android:id="@+id/send_frag_a_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Wyślij tekst do fragment b"
